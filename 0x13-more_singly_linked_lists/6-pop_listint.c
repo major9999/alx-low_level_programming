@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
- * pop_listint - deletes the head node
- * @head: a double pointer
- *
- *Return: empty
+ * pop_listint - deqwgqwfwqdwqdwqde
+ * @head: awqdqwdwqdqwder
+ *Return: emwqdqwdwqdpty
  */
 int pop_listint(listint_t **head)
 {

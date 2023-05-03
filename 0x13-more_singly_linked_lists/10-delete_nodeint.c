@@ -2,11 +2,10 @@
 #include <stdlib.h>
 
 /**
- * delete_nodeint_at_index - deletes the node at index
- * @head: double pointer
- * @index: index of node
- *
- * Return: pointer to the index node
+ * delete_nodeint_at_index - dwqdwegrethrtjhtrewex
+ * @head: dqwdwegerthrytjkyukr
+ * @index: iwqdwegerhrehdsvge
+ * Return: pwefgerhrtjrtwsdwae
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {

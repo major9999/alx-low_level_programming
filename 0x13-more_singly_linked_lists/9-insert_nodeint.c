@@ -2,12 +2,11 @@
 #include <stdlib.h>
 
 /**
- * insert_nodeint_at_index - inserting a new node at agiven postion
- * @head: double pointer
- * @idx: index of the node
- * @n: new node value
- *
- * Return: the address of new node
+ * insert_nodeint_at_index - irehregrgrewfewffdhbjkmytjkn
+ * @head: dorhehgwefdewfewgr
+ * @idx: imhgnrgegfsdxfdse
+ * @n: ntrhrggwefdvfe
+ * Return: qwfdqwfwegherhre
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
