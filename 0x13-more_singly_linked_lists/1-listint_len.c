@@ -1,21 +1,22 @@
 #include "lists.h"
 
 /**
- * listint_len - qwoidhwqiudiwqudwqd.
- * @h: uykuyikyukuk.
- * Return: poiqwjdio9wqd.
+ * listint_len - the number of elements in a linked listint_t list.
+ *
+ * @h: head pointer
+ *
+ * Return: the number of elements
+ *
  */
 
 size_t listint_len(const listint_t *h)
 {
-	size_t mypwoqs = 0;
+	size_t count = 0;
 
 	while (h != NULL)
-
 	{
-		h = h->next;
-		mypwoqs++;
+	h = h->next;
+		count++;
 	}
-
-	return (mypwoqs);
+	return (count);
 }
