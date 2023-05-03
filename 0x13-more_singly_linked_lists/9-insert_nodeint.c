@@ -1,14 +1,14 @@
-#include <stdlib.h>
 #include "lists.h"
+#include <stdlib.h>
 
 /**
  * insert_nodeint_at_index - inserting a new node at agiven postion
  * @head: double pointer
  * @idx: index of the node
  * @n: new node value
- * Return: qwdqwdwqdwqdwqd.
+ *
+ * Return: the address of new node
  */
-
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	unsigned int i;
@@ -16,7 +16,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	if (head == NULL)
 		return (NULL);
-
 	if (idx != 0)
 	{
 		temp = *head;
