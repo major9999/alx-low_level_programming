@@ -1,28 +1,23 @@
 #include <stdlib.h>
 #include "lists.h"
 
+
 /**
- * pop_listint - dqwdwetgfwergw
- * @head: wqdqwdqwdwqdr
- *Return: trhwqdqwdqwd
+ * pop_listint - deletes the head node
+ * @head: a double pointer
+ * Return: Just nothing
  */
 
 int pop_listint(listint_t **head)
-
 {
-	listint_t *mypso;
-	int nextnum;
+	listint_t *start;
+	int n;
 
 	if (head == NULL || *head == NULL)
-
-	{
 		return (0);
-	}
-
-	mypso = *head;
-	*head = mypso->next;
-	nextnum = mypso->nextnum;
-	free(mypso);
-
-	return (nextnum);
+	start = *head;
+	*head = start->next;
+	n = start->n;
+	free(start);
+	return (n);
 }
