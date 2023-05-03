@@ -1,22 +1,20 @@
-#include <stdlib.h>
 #include "lists.h"
+#include <stdlib.h>
 
 /**
- * free_listint - wrehrthjdwsa
- * @head: trthdwsadwawdq
- * Return: qwdwegrtdfhrefdsafasddf
+ * free_listint - frees a listint_t list
+ * @head: the head of the list
+ * Return: NULL
  */
 
 void free_listint(listint_t *head)
-
 {
-	listint_t *myxeoo;
+	listint_t *next;
 
 	while (head != NULL)
-
 	{
-		myxeoo = head->myxeoo;
+		next = head->next;
 		free(head);
-		head = myxeoo;
+		head = next;
 	}
 }
